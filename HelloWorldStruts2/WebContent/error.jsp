@@ -2,9 +2,9 @@
 <%@ taglib prefix="s" uri="/struts-tags" %>
 <html>
 <head>
-<title>Hello World</title>
+<title>Invalid User Name or Password</title>
 </head>
 <body>
-   Hello World, <s:property value="name"/>
+   Wrong user name or password provided.
 </body>
 </html>

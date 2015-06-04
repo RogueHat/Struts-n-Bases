@@ -2,9 +2,8 @@
 <%@ taglib prefix="s" uri="/struts-tags" %>
 <html>
 <head>
-<title>Access Denied</title>
+<title>Successful Login</title>
 </head>
 <body>
-   You are not authorized to view this page.
+   Hello World, <s:property value="name"/>
 </body>
-</html>
