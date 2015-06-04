@@ -9,22 +9,29 @@
 <body>
 	<form action="searchaction" method="post">
 		<br />
-<!-- 			<input type="text" name="population" />  -->
-
-		<label for=slider>Population</label> 
-		<input 
-			type=range min=0 max=10000000 value=5000000 id=slider 
-			step=100000 oninput="outputUpdate(value)" name ="population">
-		<output for=slider id=val>5000000</output>
-
-		<script>
-			function outputUpdate(pop) {
-				document.querySelector('#val').value = pop;
-			}
-		</script>
-
-
-		<input type="submit" value="Submit" />
+			<label for=slider>Population</label> 
+			<input 
+				type=range min=0 max=10000000 id=slider 
+				step=100000 oninput="outputUpdate(value)" name ="population">
+			<output for=slider id=val>5000000</output>
+		
+<!-- 			JavaScript to output slider value -->
+			<script>
+				function outputUpdate(pop) {
+					document.querySelector('#val').value = pop;
+				}
+			</script>
+	
+			<input type="submit" value="Submit" />
+		<br />
+		
+		<br />
+<!-- 			prints out the states and their populations -->
+			<s:iterator value="my_states" status="statusVar">
+				<p>
+					<s:property />
+				</p>
+			</s:iterator>
 		<br />
 	</form>
 </body>
