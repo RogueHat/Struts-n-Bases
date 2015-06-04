@@ -1,17 +1,31 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-pageEncoding="ISO-8859-1"%>
+	pageEncoding="ISO-8859-1"%>
 <%@ taglib prefix="s" uri="/struts-tags"%>
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" 
-"http://www.w3.org/TR/html4/loose.dtd">
+<!DOCTYPE html>
 <html>
 <head>
-<title>Login</title>
+<title>Get States by Population</title>
 </head>
 <body>
-   <form action="loginaction" method="post">
-      User:<br/><input type="text" name="user"/><br/>
-      Password:<br/><input type="password" name="password"/><br/>
-      <input type="submit" value="Login"/>		
-   </form>
+	<form action="searchaction" method="post">
+		<br />
+<!-- 			<input type="text" name="population" />  -->
+
+		<label for=slider>Population</label> 
+		<input 
+			type=range min=0 max=10000000 value=5000000 id=slider 
+			step=100000 oninput="outputUpdate(value)" name ="population">
+		<output for=slider id=val>5000000</output>
+
+		<script>
+			function outputUpdate(pop) {
+				document.querySelector('#val').value = pop;
+			}
+		</script>
+
+
+		<input type="submit" value="Submit" />
+		<br />
+	</form>
 </body>
 </html>

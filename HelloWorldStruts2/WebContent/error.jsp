@@ -2,9 +2,9 @@
 <%@ taglib prefix="s" uri="/struts-tags" %>
 <html>
 <head>
-<title>Invalid User Name or Password</title>
+<title>Error</title>
 </head>
 <body>
-   Wrong user name or password provided.
+   No states.
 </body>
 </html>
