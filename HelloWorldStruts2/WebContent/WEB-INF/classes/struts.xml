@@ -9,6 +9,9 @@
       <action name="hello" 
             class="com.tutorialspoint.struts2.HelloWorldAction" 
             method="execute">
+<!--             interceptor examples -->
+            <interceptor-ref name="params"></interceptor-ref>
+            <interceptor-ref name="timer"></interceptor-ref>
             <result name="success">/HelloWorld.jsp</result>
 <!--             Added to resoind to error -->
             <result name="error">/AccessDenied.jsp</result>
