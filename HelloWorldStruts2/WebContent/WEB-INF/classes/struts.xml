@@ -10,6 +10,8 @@
             class="com.tutorialspoint.struts2.HelloWorldAction" 
             method="execute">
             <result name="success">/HelloWorld.jsp</result>
+<!--             Added to resoind to error -->
+            <result name="error">/AccessDenied.jsp</result>
       </action>
    </package>
 </struts>
