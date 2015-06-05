@@ -27,7 +27,7 @@
 		
 		<br />
 <!-- 			prints out the states and their populations -->
-			<s:iterator value="my_states" status="statusVar">
+			<s:iterator value="mystates" status="statusVar">
 				<p>
 					<s:property />
 				</p>
