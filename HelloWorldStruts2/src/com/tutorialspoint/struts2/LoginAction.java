@@ -68,4 +68,6 @@ public class LoginAction extends ActionSupport {
    public void setName(String name) {
       this.name = name;
    }
+   
+   //a test change
 }
