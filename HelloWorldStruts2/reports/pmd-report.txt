@@ -1,10 +1,11 @@
 
 src/com/tutorialspoint/struts2/HelloWorldAction.java:12	A method/constructor shouldn't explicitly throw java.lang.Exception
 src/com/tutorialspoint/struts2/HelloWorldAction.java:12	A method/constructor shouldn't explicitly throw java.lang.Exception
-src/com/tutorialspoint/struts2/HelloWorldAction.java:13	Found 'DD'-anomaly for variable 'ret' (lines '13'-'15').
+src/com/tutorialspoint/struts2/HelloWorldAction.java:13	Position literals first in String comparisons
+src/com/tutorialspoint/struts2/HelloWorldAction.java:14	A method should have only one exit point, and that should be the last statement in the method
 src/com/tutorialspoint/struts2/HelloWorldAction.java:24	Parameter 'name' is not assigned and could be declared final
 src/com/tutorialspoint/struts2/LoginAction.java:17	Found 'DD'-anomaly for variable 'ret' (lines '17'-'33').
-src/com/tutorialspoint/struts2/LoginAction.java:17	Found 'DD'-anomaly for variable 'ret' (lines '17'-'38').
+src/com/tutorialspoint/struts2/LoginAction.java:17	Found 'DD'-anomaly for variable 'ret' (lines '17'-'36').
 src/com/tutorialspoint/struts2/LoginAction.java:18	Found 'DD'-anomaly for variable 'conn' (lines '18'-'23').
 src/com/tutorialspoint/struts2/LoginAction.java:21	Local variable 'URL' could be declared final
 src/com/tutorialspoint/struts2/LoginAction.java:25	Prefer StringBuffer over += for concatenating strings
@@ -14,16 +15,16 @@ src/com/tutorialspoint/struts2/LoginAction.java:29	Avoid variables with short na
 src/com/tutorialspoint/struts2/LoginAction.java:29	Ensure that resources like this ResultSet object are closed after use
 src/com/tutorialspoint/struts2/LoginAction.java:29	Local variable 'rs' could be declared final
 src/com/tutorialspoint/struts2/LoginAction.java:33	Found 'DD'-anomaly for variable 'ret' (lines '33'-'33').
-src/com/tutorialspoint/struts2/LoginAction.java:33	Found 'DD'-anomaly for variable 'ret' (lines '33'-'38').
-src/com/tutorialspoint/struts2/LoginAction.java:43	Avoid empty catch blocks
-src/com/tutorialspoint/struts2/LoginAction.java:54	Parameter 'user' is not assigned and could be declared final
-src/com/tutorialspoint/struts2/LoginAction.java:62	Parameter 'password' is not assigned and could be declared final
-src/com/tutorialspoint/struts2/LoginAction.java:70	Parameter 'name' is not assigned and could be declared final
+src/com/tutorialspoint/struts2/LoginAction.java:33	Found 'DD'-anomaly for variable 'ret' (lines '33'-'36').
+src/com/tutorialspoint/struts2/LoginAction.java:41	Avoid empty catch blocks
+src/com/tutorialspoint/struts2/LoginAction.java:52	Parameter 'user' is not assigned and could be declared final
+src/com/tutorialspoint/struts2/LoginAction.java:60	Parameter 'password' is not assigned and could be declared final
+src/com/tutorialspoint/struts2/LoginAction.java:68	Parameter 'name' is not assigned and could be declared final
 src/com/tutorialspoint/struts2/SearchAction.java:14	Avoid using implementation types like 'ArrayList'; use the interface instead
 src/com/tutorialspoint/struts2/SearchAction.java:14	Avoid using implementation types like 'ArrayList'; use the interface instead
-src/com/tutorialspoint/struts2/SearchAction.java:14	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/tutorialspoint/struts2/SearchAction.java:14	Variables that are not final should not contain underscores (except for underscores in standard prefix/suffix).
 src/com/tutorialspoint/struts2/SearchAction.java:17	Found 'DD'-anomaly for variable 'ret' (lines '17'-'31').
-src/com/tutorialspoint/struts2/SearchAction.java:17	Found 'DD'-anomaly for variable 'ret' (lines '17'-'36').
+src/com/tutorialspoint/struts2/SearchAction.java:17	Found 'DD'-anomaly for variable 'ret' (lines '17'-'35').
 src/com/tutorialspoint/struts2/SearchAction.java:18	Found 'DD'-anomaly for variable 'conn' (lines '18'-'23').
 src/com/tutorialspoint/struts2/SearchAction.java:21	Local variable 'URL' could be declared final
 src/com/tutorialspoint/struts2/SearchAction.java:24	Local variable 'sql' could be declared final
@@ -32,13 +33,17 @@ src/com/tutorialspoint/struts2/SearchAction.java:25	Local variable 'ps' could be
 src/com/tutorialspoint/struts2/SearchAction.java:27	Avoid variables with short names like rs
 src/com/tutorialspoint/struts2/SearchAction.java:27	Ensure that resources like this ResultSet object are closed after use
 src/com/tutorialspoint/struts2/SearchAction.java:27	Local variable 'rs' could be declared final
-src/com/tutorialspoint/struts2/SearchAction.java:31	Found 'DD'-anomaly for variable 'ret' (lines '31'-'36').
-src/com/tutorialspoint/struts2/SearchAction.java:34	Local variable 'str' could be declared final
-src/com/tutorialspoint/struts2/SearchAction.java:36	Found 'DD'-anomaly for variable 'ret' (lines '36'-'36').
-src/com/tutorialspoint/struts2/SearchAction.java:36	Found 'DD'-anomaly for variable 'ret' (lines '36'-'42').
-src/com/tutorialspoint/struts2/SearchAction.java:47	Avoid empty catch blocks
-src/com/tutorialspoint/struts2/SearchAction.java:58	Parameter 'population' is not assigned and could be declared final
-src/com/tutorialspoint/struts2/SearchAction.java:62	Avoid using implementation types like 'ArrayList'; use the interface instead
-src/com/tutorialspoint/struts2/SearchAction.java:62	Avoid using implementation types like 'ArrayList'; use the interface instead
-src/com/tutorialspoint/struts2/SearchAction.java:66	Avoid using implementation types like 'ArrayList'; use the interface instead
-src/com/tutorialspoint/struts2/SearchAction.java:66	Parameter 'my_states' is not assigned and could be declared final
+src/com/tutorialspoint/struts2/SearchAction.java:30	Avoid using if statements without curly braces
+src/com/tutorialspoint/struts2/SearchAction.java:31	Found 'DD'-anomaly for variable 'ret' (lines '31'-'35').
+src/com/tutorialspoint/struts2/SearchAction.java:33	Local variable 'str' could be declared final
+src/com/tutorialspoint/struts2/SearchAction.java:35	Found 'DD'-anomaly for variable 'ret' (lines '35'-'35').
+src/com/tutorialspoint/struts2/SearchAction.java:35	Found 'DD'-anomaly for variable 'ret' (lines '35'-'39').
+src/com/tutorialspoint/struts2/SearchAction.java:44	Avoid empty catch blocks
+src/com/tutorialspoint/struts2/SearchAction.java:55	Parameter 'population' is not assigned and could be declared final
+src/com/tutorialspoint/struts2/SearchAction.java:59	Avoid using implementation types like 'ArrayList'; use the interface instead
+src/com/tutorialspoint/struts2/SearchAction.java:59	Avoid using implementation types like 'ArrayList'; use the interface instead
+src/com/tutorialspoint/struts2/SearchAction.java:59	Method names should not contain underscores
+src/com/tutorialspoint/struts2/SearchAction.java:63	Avoid using implementation types like 'ArrayList'; use the interface instead
+src/com/tutorialspoint/struts2/SearchAction.java:63	Avoid using implementation types like 'ArrayList'; use the interface instead
+src/com/tutorialspoint/struts2/SearchAction.java:63	Method names should not contain underscores
+src/com/tutorialspoint/struts2/SearchAction.java:63	Parameter 'my_states' is not assigned and could be declared final
