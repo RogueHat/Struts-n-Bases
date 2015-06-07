@@ -25,16 +25,9 @@
 			<input type="submit" value="Submit" />
 		<br />
 		
-		
 		<br />
-<!-- 			prints out the states and their populations -->
-			<s:iterator value="my_states" status="statusVar">
-				<p>
-					<s:property />
-				</p>
-			</s:iterator>
+			No States
 		<br />
-		
 	</form>
 </body>
 </html>

@@ -11,7 +11,7 @@ import com.opensymphony.xwork2.ActionSupport;
 public class SearchAction extends ActionSupport {
 
 	private int population;
-	private ArrayList<String> mystates;
+	private ArrayList<String> my_states;
 
 	public String execute() {
 		String ret = ERROR;
@@ -25,15 +25,14 @@ public class SearchAction extends ActionSupport {
 			PreparedStatement ps = conn.prepareStatement(sql);
 			ps.setInt(1, population);
 			ResultSet rs = ps.executeQuery();
-			mystates = new ArrayList<String>();
+			my_states = new ArrayList<String>();
 
-			if (!rs.next())
-				ret = ERROR;
-			do {
+			ret = "none";
+			while (rs.next()) {
 				String str = rs.getString(1) + " " +rs.getInt(2);
-				mystates.add(str);
+				my_states.add(str);
 				ret = SUCCESS;
-			} while (rs.next());
+			}
 
 		} catch (Exception e) {
 			ret = ERROR;
@@ -57,11 +56,11 @@ public class SearchAction extends ActionSupport {
 	}
 
 	public ArrayList<String> getMy_states() {
-		return mystates;
+		return my_states;
 	}
 
 	public void setMy_states(ArrayList<String> my_states) {
-		this.mystates = my_states;
+		this.my_states = my_states;
 	}
 	
 	

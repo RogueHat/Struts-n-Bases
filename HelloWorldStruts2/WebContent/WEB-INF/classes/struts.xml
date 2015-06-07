@@ -12,6 +12,7 @@
 			<!-- <result name="success">/success.jsp</result> -->
 			<!-- <result name="error">/error.jsp</result> -->
 			<result name="success">/index.jsp</result>
+			<result name="none">/none.jsp</result>
 			<result name="error">/error.jsp</result>
 		</action>
 
