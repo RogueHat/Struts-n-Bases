@@ -2,7 +2,7 @@
 <!DOCTYPE sqlMap PUBLIC "-//ibatis.apache.org//DTD SQL Map 2.0//EN" "http://ibatis.apache.org/dtd/sql-map-2.dtd">
 
 <sqlMap namespace="State">
-	<select id="get" resultClass="com.tutorialspoint.struts2.SearchAction">
+	<select id="get" resultClass="com.tutorialspoint.struts2.State">
 		SELECT state,population FROM states
 		WHERE population >= #population#
 	</select>

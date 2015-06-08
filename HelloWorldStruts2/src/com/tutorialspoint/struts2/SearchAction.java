@@ -20,43 +20,19 @@ public class SearchAction extends ActionSupport {
 
 	public String execute() {
 		String ret = ERROR;
-		// Connection conn = null;
 
 		try {
-			// String URL = "jdbc:mysql://localhost:3306/us_states";
-			// Class.forName("com.mysql.jdbc.Driver");
-			// conn = DriverManager.getConnection(URL, "root", "toor");
-			// String sql =
-			// "SELECT state,population FROM states WHERE population >= ?";
-			// PreparedStatement ps = conn.prepareStatement(sql);
-			// ps.setInt(1, population);
-			// ResultSet rs = ps.executeQuery();
 			String location = "SqlMapConfig.xml";
 			Reader rd = Resources.getResourceAsReader(location);
 			SqlMapClient smc = SqlMapClientBuilder.buildSqlMapClient(rd);
 			my_states = (List<State>) smc.queryForList("State.get", population);
 
-
-			if(my_states.isEmpty()){
+			ret = SUCCESS;
+			if (my_states.isEmpty()) {
 				ret = "none";
-			}else{
-				ret = SUCCESS;
 			}
-//			while (rs.next()) {
-//				String str = rs.getString(1) + " " + rs.getInt(2);
-//				my_states.add(str);
-//				ret = SUCCESS;
-//			}
-
 		} catch (Exception e) {
 			ret = ERROR;
-		} finally {
-//			if (conn != null) {
-//				try {
-//					conn.close();
-//				} catch (Exception e) {
-//				}
-//			}
 		}
 		return ret;
 	}
