@@ -28,10 +28,8 @@
 		
 		<br />
 <!-- 			prints out the states and their populations -->
-			<s:iterator value="my_states" status="statusVar">
-				<p>
-					<s:property />
-				</p>
+			<s:iterator value="my_states">
+				<p><s:property value="state"/> <s:property value="population"/></p>
 			</s:iterator>
 		<br />
 		
