@@ -30,7 +30,6 @@ src/com/tutorialspoint/struts2/SearchAction.java:7	Avoid unused imports such as 
 src/com/tutorialspoint/struts2/SearchAction.java:7	Avoid unused imports such as 'java.sql.PreparedStatement'
 src/com/tutorialspoint/struts2/SearchAction.java:8	Avoid unused imports such as 'java.sql.ResultSet'
 src/com/tutorialspoint/struts2/SearchAction.java:8	Avoid unused imports such as 'java.sql.ResultSet'
-src/com/tutorialspoint/struts2/SearchAction.java:19	Variables that are not final should not contain underscores (except for underscores in standard prefix/suffix).
 src/com/tutorialspoint/struts2/SearchAction.java:22	Found 'DD'-anomaly for variable 'ret' (lines '22'-'30').
 src/com/tutorialspoint/struts2/SearchAction.java:25	Local variable 'location' could be declared final
 src/com/tutorialspoint/struts2/SearchAction.java:26	Avoid variables with short names like rd
@@ -40,9 +39,7 @@ src/com/tutorialspoint/struts2/SearchAction.java:30	Found 'DD'-anomaly for varia
 src/com/tutorialspoint/struts2/SearchAction.java:30	Found 'DD'-anomaly for variable 'ret' (lines '30'-'35').
 src/com/tutorialspoint/struts2/SearchAction.java:32	Found 'DD'-anomaly for variable 'ret' (lines '32'-'35').
 src/com/tutorialspoint/struts2/SearchAction.java:44	Parameter 'population' is not assigned and could be declared final
-src/com/tutorialspoint/struts2/SearchAction.java:48	Method names should not contain underscores
-src/com/tutorialspoint/struts2/SearchAction.java:52	Method names should not contain underscores
-src/com/tutorialspoint/struts2/SearchAction.java:52	Parameter 'my_states' is not assigned and could be declared final
+src/com/tutorialspoint/struts2/SearchAction.java:52	Parameter 'mystates' is not assigned and could be declared final
 src/com/tutorialspoint/struts2/State.java:4	It is somewhat confusing to have a field name matching the declaring class name
 src/com/tutorialspoint/struts2/State.java:7	Document empty constructor
 src/com/tutorialspoint/struts2/State.java:9	Avoid variables with short names like p

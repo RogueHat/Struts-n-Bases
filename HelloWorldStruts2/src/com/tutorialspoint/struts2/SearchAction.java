@@ -16,7 +16,7 @@ import com.opensymphony.xwork2.ActionSupport;
 public class SearchAction extends ActionSupport {
 
 	private int population;
-	private List<State> my_states;
+	private List<State> mystates;
 
 	public String execute() {
 		String ret = ERROR;
@@ -25,10 +25,10 @@ public class SearchAction extends ActionSupport {
 			String location = "SqlMapConfig.xml";
 			Reader rd = Resources.getResourceAsReader(location);
 			SqlMapClient smc = SqlMapClientBuilder.buildSqlMapClient(rd);
-			my_states = (List<State>) smc.queryForList("State.get", population);
+			mystates = (List<State>) smc.queryForList("State.get", population);
 
 			ret = SUCCESS;
-			if (my_states.isEmpty()) {
+			if (mystates.isEmpty()) {
 				ret = "none";
 			}
 		} catch (Exception e) {
@@ -45,11 +45,12 @@ public class SearchAction extends ActionSupport {
 		this.population = population;
 	}
 
-	public List<State> getMy_states() {
-		return my_states;
+	public List<State> getMystates() {
+		return mystates;
 	}
 
-	public void setMy_states(List<State> my_states) {
-		this.my_states = my_states;
+	public void setMystates(List<State> mystates) {
+		this.mystates = mystates;
 	}
+	
 }

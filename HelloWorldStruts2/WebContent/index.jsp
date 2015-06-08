@@ -28,7 +28,7 @@
 		
 		<br />
 <!-- 			prints out the states and their populations -->
-			<s:iterator value="my_states">
+			<s:iterator value="mystates">
 				<p><s:property value="state"/> <s:property value="population"/></p>
 			</s:iterator>
 		<br />
