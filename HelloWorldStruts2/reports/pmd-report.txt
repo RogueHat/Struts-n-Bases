@@ -20,30 +20,34 @@ src/com/tutorialspoint/struts2/LoginAction.java:41	Avoid empty catch blocks
 src/com/tutorialspoint/struts2/LoginAction.java:52	Parameter 'user' is not assigned and could be declared final
 src/com/tutorialspoint/struts2/LoginAction.java:60	Parameter 'password' is not assigned and could be declared final
 src/com/tutorialspoint/struts2/LoginAction.java:68	Parameter 'name' is not assigned and could be declared final
-src/com/tutorialspoint/struts2/SearchAction.java:14	Avoid using implementation types like 'ArrayList'; use the interface instead
-src/com/tutorialspoint/struts2/SearchAction.java:14	Avoid using implementation types like 'ArrayList'; use the interface instead
-src/com/tutorialspoint/struts2/SearchAction.java:14	Found non-transient, non-static member. Please mark as transient or provide accessors.
-src/com/tutorialspoint/struts2/SearchAction.java:17	Found 'DD'-anomaly for variable 'ret' (lines '17'-'31').
-src/com/tutorialspoint/struts2/SearchAction.java:17	Found 'DD'-anomaly for variable 'ret' (lines '17'-'35').
-src/com/tutorialspoint/struts2/SearchAction.java:18	Found 'DD'-anomaly for variable 'conn' (lines '18'-'23').
-src/com/tutorialspoint/struts2/SearchAction.java:21	Local variable 'URL' could be declared final
-src/com/tutorialspoint/struts2/SearchAction.java:24	Local variable 'sql' could be declared final
-src/com/tutorialspoint/struts2/SearchAction.java:25	Avoid variables with short names like ps
-src/com/tutorialspoint/struts2/SearchAction.java:25	Local variable 'ps' could be declared final
-src/com/tutorialspoint/struts2/SearchAction.java:27	Avoid variables with short names like rs
-src/com/tutorialspoint/struts2/SearchAction.java:27	Ensure that resources like this ResultSet object are closed after use
-src/com/tutorialspoint/struts2/SearchAction.java:27	Local variable 'rs' could be declared final
-src/com/tutorialspoint/struts2/SearchAction.java:30	Avoid using if statements without curly braces
-src/com/tutorialspoint/struts2/SearchAction.java:31	Found 'DD'-anomaly for variable 'ret' (lines '31'-'35').
-src/com/tutorialspoint/struts2/SearchAction.java:33	Local variable 'str' could be declared final
-src/com/tutorialspoint/struts2/SearchAction.java:35	Found 'DD'-anomaly for variable 'ret' (lines '35'-'35').
-src/com/tutorialspoint/struts2/SearchAction.java:35	Found 'DD'-anomaly for variable 'ret' (lines '35'-'39').
-src/com/tutorialspoint/struts2/SearchAction.java:44	Avoid empty catch blocks
-src/com/tutorialspoint/struts2/SearchAction.java:55	Parameter 'population' is not assigned and could be declared final
-src/com/tutorialspoint/struts2/SearchAction.java:59	Avoid using implementation types like 'ArrayList'; use the interface instead
-src/com/tutorialspoint/struts2/SearchAction.java:59	Avoid using implementation types like 'ArrayList'; use the interface instead
-src/com/tutorialspoint/struts2/SearchAction.java:59	Method names should not contain underscores
-src/com/tutorialspoint/struts2/SearchAction.java:63	Avoid using implementation types like 'ArrayList'; use the interface instead
-src/com/tutorialspoint/struts2/SearchAction.java:63	Avoid using implementation types like 'ArrayList'; use the interface instead
-src/com/tutorialspoint/struts2/SearchAction.java:63	Method names should not contain underscores
-src/com/tutorialspoint/struts2/SearchAction.java:63	Parameter 'my_states' is not assigned and could be declared final
+src/com/tutorialspoint/struts2/SearchAction.java:3	Avoid unused imports such as 'java.io.FileReader'
+src/com/tutorialspoint/struts2/SearchAction.java:3	Avoid unused imports such as 'java.io.FileReader'
+src/com/tutorialspoint/struts2/SearchAction.java:5	Avoid unused imports such as 'java.sql.Connection'
+src/com/tutorialspoint/struts2/SearchAction.java:5	Avoid unused imports such as 'java.sql.Connection'
+src/com/tutorialspoint/struts2/SearchAction.java:6	Avoid unused imports such as 'java.sql.DriverManager'
+src/com/tutorialspoint/struts2/SearchAction.java:6	Avoid unused imports such as 'java.sql.DriverManager'
+src/com/tutorialspoint/struts2/SearchAction.java:7	Avoid unused imports such as 'java.sql.PreparedStatement'
+src/com/tutorialspoint/struts2/SearchAction.java:7	Avoid unused imports such as 'java.sql.PreparedStatement'
+src/com/tutorialspoint/struts2/SearchAction.java:8	Avoid unused imports such as 'java.sql.ResultSet'
+src/com/tutorialspoint/struts2/SearchAction.java:8	Avoid unused imports such as 'java.sql.ResultSet'
+src/com/tutorialspoint/struts2/SearchAction.java:19	Variables that are not final should not contain underscores (except for underscores in standard prefix/suffix).
+src/com/tutorialspoint/struts2/SearchAction.java:22	Found 'DD'-anomaly for variable 'ret' (lines '22'-'30').
+src/com/tutorialspoint/struts2/SearchAction.java:25	Local variable 'location' could be declared final
+src/com/tutorialspoint/struts2/SearchAction.java:26	Avoid variables with short names like rd
+src/com/tutorialspoint/struts2/SearchAction.java:26	Local variable 'rd' could be declared final
+src/com/tutorialspoint/struts2/SearchAction.java:27	Local variable 'smc' could be declared final
+src/com/tutorialspoint/struts2/SearchAction.java:30	Found 'DD'-anomaly for variable 'ret' (lines '30'-'32').
+src/com/tutorialspoint/struts2/SearchAction.java:30	Found 'DD'-anomaly for variable 'ret' (lines '30'-'35').
+src/com/tutorialspoint/struts2/SearchAction.java:32	Found 'DD'-anomaly for variable 'ret' (lines '32'-'35').
+src/com/tutorialspoint/struts2/SearchAction.java:44	Parameter 'population' is not assigned and could be declared final
+src/com/tutorialspoint/struts2/SearchAction.java:48	Method names should not contain underscores
+src/com/tutorialspoint/struts2/SearchAction.java:52	Method names should not contain underscores
+src/com/tutorialspoint/struts2/SearchAction.java:52	Parameter 'my_states' is not assigned and could be declared final
+src/com/tutorialspoint/struts2/State.java:4	It is somewhat confusing to have a field name matching the declaring class name
+src/com/tutorialspoint/struts2/State.java:7	Document empty constructor
+src/com/tutorialspoint/struts2/State.java:9	Avoid variables with short names like p
+src/com/tutorialspoint/struts2/State.java:9	Avoid variables with short names like s
+src/com/tutorialspoint/struts2/State.java:9	Parameter 'p' is not assigned and could be declared final
+src/com/tutorialspoint/struts2/State.java:9	Parameter 's' is not assigned and could be declared final
+src/com/tutorialspoint/struts2/State.java:20	Parameter 'state' is not assigned and could be declared final
+src/com/tutorialspoint/struts2/State.java:28	Parameter 'population' is not assigned and could be declared final
