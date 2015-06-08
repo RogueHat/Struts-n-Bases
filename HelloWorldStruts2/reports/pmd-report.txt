@@ -20,26 +20,16 @@ src/com/tutorialspoint/struts2/LoginAction.java:41	Avoid empty catch blocks
 src/com/tutorialspoint/struts2/LoginAction.java:52	Parameter 'user' is not assigned and could be declared final
 src/com/tutorialspoint/struts2/LoginAction.java:60	Parameter 'password' is not assigned and could be declared final
 src/com/tutorialspoint/struts2/LoginAction.java:68	Parameter 'name' is not assigned and could be declared final
-src/com/tutorialspoint/struts2/SearchAction.java:3	Avoid unused imports such as 'java.io.FileReader'
-src/com/tutorialspoint/struts2/SearchAction.java:3	Avoid unused imports such as 'java.io.FileReader'
-src/com/tutorialspoint/struts2/SearchAction.java:5	Avoid unused imports such as 'java.sql.Connection'
-src/com/tutorialspoint/struts2/SearchAction.java:5	Avoid unused imports such as 'java.sql.Connection'
-src/com/tutorialspoint/struts2/SearchAction.java:6	Avoid unused imports such as 'java.sql.DriverManager'
-src/com/tutorialspoint/struts2/SearchAction.java:6	Avoid unused imports such as 'java.sql.DriverManager'
-src/com/tutorialspoint/struts2/SearchAction.java:7	Avoid unused imports such as 'java.sql.PreparedStatement'
-src/com/tutorialspoint/struts2/SearchAction.java:7	Avoid unused imports such as 'java.sql.PreparedStatement'
-src/com/tutorialspoint/struts2/SearchAction.java:8	Avoid unused imports such as 'java.sql.ResultSet'
-src/com/tutorialspoint/struts2/SearchAction.java:8	Avoid unused imports such as 'java.sql.ResultSet'
-src/com/tutorialspoint/struts2/SearchAction.java:22	Found 'DD'-anomaly for variable 'ret' (lines '22'-'30').
-src/com/tutorialspoint/struts2/SearchAction.java:25	Local variable 'location' could be declared final
-src/com/tutorialspoint/struts2/SearchAction.java:26	Avoid variables with short names like rd
-src/com/tutorialspoint/struts2/SearchAction.java:26	Local variable 'rd' could be declared final
-src/com/tutorialspoint/struts2/SearchAction.java:27	Local variable 'smc' could be declared final
-src/com/tutorialspoint/struts2/SearchAction.java:30	Found 'DD'-anomaly for variable 'ret' (lines '30'-'32').
-src/com/tutorialspoint/struts2/SearchAction.java:30	Found 'DD'-anomaly for variable 'ret' (lines '30'-'35').
-src/com/tutorialspoint/struts2/SearchAction.java:32	Found 'DD'-anomaly for variable 'ret' (lines '32'-'35').
-src/com/tutorialspoint/struts2/SearchAction.java:44	Parameter 'population' is not assigned and could be declared final
-src/com/tutorialspoint/struts2/SearchAction.java:52	Parameter 'mystates' is not assigned and could be declared final
+src/com/tutorialspoint/struts2/SearchAction.java:17	Found 'DD'-anomaly for variable 'ret' (lines '17'-'25').
+src/com/tutorialspoint/struts2/SearchAction.java:20	Local variable 'location' could be declared final
+src/com/tutorialspoint/struts2/SearchAction.java:21	Avoid variables with short names like rd
+src/com/tutorialspoint/struts2/SearchAction.java:21	Local variable 'rd' could be declared final
+src/com/tutorialspoint/struts2/SearchAction.java:22	Local variable 'smc' could be declared final
+src/com/tutorialspoint/struts2/SearchAction.java:25	Found 'DD'-anomaly for variable 'ret' (lines '25'-'27').
+src/com/tutorialspoint/struts2/SearchAction.java:25	Found 'DD'-anomaly for variable 'ret' (lines '25'-'30').
+src/com/tutorialspoint/struts2/SearchAction.java:27	Found 'DD'-anomaly for variable 'ret' (lines '27'-'30').
+src/com/tutorialspoint/struts2/SearchAction.java:39	Parameter 'population' is not assigned and could be declared final
+src/com/tutorialspoint/struts2/SearchAction.java:47	Parameter 'mystates' is not assigned and could be declared final
 src/com/tutorialspoint/struts2/State.java:4	It is somewhat confusing to have a field name matching the declaring class name
 src/com/tutorialspoint/struts2/State.java:7	Document empty constructor
 src/com/tutorialspoint/struts2/State.java:9	Avoid variables with short names like p

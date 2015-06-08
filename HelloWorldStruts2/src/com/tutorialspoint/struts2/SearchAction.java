@@ -1,11 +1,6 @@
 package com.tutorialspoint.struts2;
 
-import java.io.FileReader;
 import java.io.Reader;
-import java.sql.Connection;
-import java.sql.DriverManager;
-import java.sql.PreparedStatement;
-import java.sql.ResultSet;
 import java.util.List;
 
 import com.ibatis.common.resources.Resources;
@@ -52,5 +47,5 @@ public class SearchAction extends ActionSupport {
 	public void setMystates(List<State> mystates) {
 		this.mystates = mystates;
 	}
-	
+
 }
